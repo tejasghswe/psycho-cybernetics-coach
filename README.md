@@ -1,4 +1,4 @@
-# Monologue Coach
+# Psycho-cybernetics coach
 
 A structured self-reflection coach: the user talks freeform for a few
 minutes about how they're feeling, a small multi-agent system reflects back
