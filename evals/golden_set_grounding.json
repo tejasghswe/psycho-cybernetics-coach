@@ -1,0 +1,137 @@
+[
+  {
+    "id": "presentation-anxiety",
+    "mood_selection": "stressed",
+    "transcript": "I have a big presentation on Thursday and I keep replaying every time I've messed one up before. My hands shake and I lose my train of thought. Last time I actually did fine once I got past the first two minutes, but I don't remember that part, I only remember being scared.",
+    "qa": [
+      {"question": "What happened once you got past those first two minutes last time?", "answer": "Honestly it went smoothly, people asked good questions and nobody seemed to notice I was nervous."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "family-conflict",
+    "mood_selection": "annoyed",
+    "transcript": "My sister keeps bringing up old stuff from years ago every time we talk, and I end up defending myself instead of just having a normal conversation. It's exhausting. We used to be really close before this started.",
+    "qa": [
+      {"question": "What was it like when you two were close?", "answer": "We'd talk on the phone for hours about nothing in particular. It was easy back then."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "work-stress-deadline",
+    "mood_selection": "stressed",
+    "transcript": "I have three deadlines colliding this week and I don't know how I'm going to get it all done. I keep starting one thing and switching to another because I panic about the others.",
+    "qa": [
+      {"question": "Is there anything from this week that's already handled or going okay?", "answer": "I did finish the client report yesterday ahead of schedule, so that's one less thing."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "relationship-doubt",
+    "mood_selection": "sad",
+    "transcript": "I've been wondering if my partner and I actually want the same things anymore. We don't fight, we just feel distant. I don't know if that's normal or a sign something's wrong.",
+    "qa": [
+      {"question": "When did you last feel really connected to each other?", "answer": "A couple weekends ago we cooked dinner together and just talked for hours, it felt easy."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "imposter-syndrome",
+    "mood_selection": "stressed",
+    "transcript": "I got promoted last month and instead of being excited I mostly feel like I'm going to be found out as not actually qualified. Everyone else in these meetings seems so sure of themselves.",
+    "qa": [
+      {"question": "Has anyone given you feedback since the promotion?", "answer": "My manager said my first project proposal was one of the clearest she's seen from someone new to the role."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "procrastination-guilt",
+    "mood_selection": "annoyed",
+    "transcript": "I keep putting off this project and then feeling terrible about myself for putting it off, which makes it even harder to start. It's a loop I can't seem to break.",
+    "qa": [
+      {"question": "Is there a version of starting that's felt easier before?", "answer": "When I just open the file and do five minutes with no pressure to finish, I usually keep going longer than planned."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "burnout",
+    "mood_selection": "stressed",
+    "transcript": "I've been working late every night for weeks and I don't feel like myself anymore. Things I used to enjoy just feel like one more obligation now.",
+    "qa": [
+      {"question": "Was there a point recently where something felt less like an obligation?", "answer": "Actually this past Sunday I went for a walk with no phone and it was the first time in weeks I felt calm."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "decision-paralysis",
+    "mood_selection": "stressed",
+    "transcript": "I've been offered a new job and I keep going back and forth on whether to take it. Every time I lean one way I immediately think of a reason to lean the other way.",
+    "qa": [
+      {"question": "What draws you toward taking it?", "answer": "The team seemed genuinely excited to work with me, and that's rare in interviews I've had."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "social-awkwardness",
+    "mood_selection": "annoyed",
+    "transcript": "I went to a work social last night and spent most of it feeling like I said the wrong things. I replayed the conversations the whole drive home.",
+    "qa": [
+      {"question": "Was there any part of the night that felt fine while it was happening?", "answer": "Early on I had a good conversation with a coworker about a show we both like, that part was easy."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "missing-old-friend",
+    "mood_selection": "sad",
+    "transcript": "I've been thinking about a friendship that faded out a couple years ago. We just drifted, nothing dramatic happened, but I miss having someone who knew me that well.",
+    "qa": [
+      {"question": "What do you remember most about being known that well by someone?", "answer": "She always knew when something was actually wrong versus when I was just tired, without me explaining."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "financial-stress",
+    "mood_selection": "stressed",
+    "transcript": "Money's been tight the last few months and I check my bank account way more than I used to, usually right before bed, which doesn't help me sleep.",
+    "qa": [
+      {"question": "Has anything helped even a little with the money stress?", "answer": "I made a simple spreadsheet last week and just seeing the numbers laid out made it feel less scary."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "parenting-stress",
+    "mood_selection": "stressed",
+    "transcript": "My kid has been having a rough few weeks at school and I feel like I'm failing at helping, even though I don't really know what would help.",
+    "qa": [
+      {"question": "Has there been a moment recently where things felt a little easier with them?", "answer": "Last night we just watched a movie together and didn't talk about school at all, and it was nice."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "health-scare-resolved",
+    "mood_selection": "better",
+    "transcript": "I had a health scare a few weeks ago that turned out to be nothing serious, but I'm still kind of shaken by how scared I was in the days before the results came back.",
+    "qa": [
+      {"question": "What helped you get through those days of waiting?", "answer": "My roommate sat with me the night before the appointment and just kept things normal, that helped a lot."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "creative-block",
+    "mood_selection": "annoyed",
+    "transcript": "I haven't been able to write anything I like in months. Every time I sit down I compare it to older work and delete it.",
+    "qa": [
+      {"question": "Is there anything from the older work you're proud of that you could revisit?", "answer": "There's one piece from last year I still think is decent, I haven't looked at it in a while though."}
+    ],
+    "expects_good_thing": true
+  },
+  {
+    "id": "roommate-conflict",
+    "mood_selection": "annoyed",
+    "transcript": "My roommate and I keep having the same argument about chores and neither of us wants to bring it up directly, so it just simmers.",
+    "qa": [
+      {"question": "Has a conversation with them ever gone well, even about something small?", "answer": "We talked through splitting the internet bill fine last year, that was straightforward."}
+    ],
+    "expects_good_thing": true
+  }
+]

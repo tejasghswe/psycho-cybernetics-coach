@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Monologue Coach</title>
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<header>
+  <h1>Psycho-cybernetics coach</h1>
+  <p>A structured self-reflection coach, not a therapist, not a diagnostic tool.</p>
+</header>
+<main>
+
+  <section class="panel" id="start-panel">
+    <h2>How are you doing?</h2>
+    <form id="start-form">
+      <label for="mood-select">Mood</label>
+      <select id="mood-select">
+        <option value="stressed">Stressed</option>
+        <option value="sad">Sad</option>
+        <option value="annoyed">Annoyed</option>
+        <option value="better">Better</option>
+        <option value="other">Other</option>
+      </select>
+      <label for="transcript-input">Talk freely for a few minutes about what's going on</label>
+      <textarea id="transcript-input" placeholder="Type freeform, as if talking it through out loud..." required></textarea>
+      <div class="voice-row">
+        <button type="button" id="start-mic-btn" class="mic-btn">🎤 Record</button>
+        <span class="voice-status" id="start-voice-status"></span>
+      </div>
+      <button type="submit" id="start-btn">Start</button>
+    </form>
+    <div class="thinking-indicator" id="start-thinking" hidden>🤔 Thinking — this can take up to 30 seconds...</div>
+    <div class="error-box" id="start-error"></div>
+  </section>
+
+  <section class="panel" id="crisis-panel" hidden>
+    <h2>Support resources</h2>
+    <div class="crisis-box" id="crisis-message"></div>
+    <button id="crisis-restart-btn">Start a new session</button>
+  </section>
+
+  <section class="panel" id="conversation-panel" hidden>
+    <h2>Follow-up</h2>
+    <div id="qa-history"></div>
+    <div class="question-box" id="current-question"></div>
+    <form id="answer-form">
+      <label for="answer-input">Your answer</label>
+      <textarea id="answer-input" required></textarea>
+      <div class="voice-row">
+        <button type="button" id="answer-mic-btn" class="mic-btn">🎤 Record</button>
+        <span class="voice-status" id="answer-voice-status"></span>
+      </div>
+      <button type="submit" id="answer-btn">Send</button>
+    </form>
+    <div class="thinking-indicator" id="answer-thinking" hidden>🤔 Thinking — this can take up to 30 seconds...</div>
+    <div class="error-box" id="answer-error"></div>
+  </section>
+
+  <section class="panel" id="report-panel" hidden>
+    <h2>Report</h2>
+    <div class="report-section">
+      <h3>Reframe</h3>
+      <p id="report-reframe"></p>
+    </div>
+    <div class="report-section">
+      <h3>Things that went okay</h3>
+      <ul id="report-good-things"></ul>
+    </div>
+    <div class="report-section">
+      <h3>Actionables</h3>
+      <ul id="report-actionables"></ul>
+    </div>
+    <button id="report-restart-btn">Start a new session</button>
+  </section>
+
+</main>
+<script src="/voice-input.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
